@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: black;
+    padding: 20px;
+}
+nav h3{
+    color: white;
+}
+
+.sectionmain{
+    margin: 15px;
+    
+}
+
+input{
+    width: 90%;
+    height: 45px;
+    
+}
+input::placeholder{
+    padding-left: 20px;
+    font-size: large;
+}
+
+#searchbutton{
+    width: 130px;
+    margin-left: 10px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+
+#allButtons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+button
+{
+    width: 220px;
+    /* margin-left: 10px; */
+    height: 45px;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
